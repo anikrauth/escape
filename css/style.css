@@ -1,0 +1,442 @@
+/*Basic Css Start*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    border: 0;
+    cursor: pointer;
+}
+
+p {
+    line-height: 150%;
+}
+
+clear {
+    overflow: hidden;
+}
+
+
+/*Basic Css End*/
+
+
+/*header Css start*/
+
+#header-part {
+    background: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 30px 0px 80px;
+    position: relative;
+}
+
+#header-part:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.nav-wrap {
+    position: relative;
+    z-index: 90;
+}
+
+.menu>ul>li {
+    padding-right: 16px;
+}
+
+.menu>ul>li>a {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+.banner-wrap {
+    position: relative;
+    z-index: 90;
+}
+
+.banner-content-area {
+    padding-top: 140px;
+}
+
+.banner-content-area .banner-content-area-title {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+
+.banner-content-area .banner-content-area-sub-title {
+    font-family: 'Lato', sans-serif;
+    font-size: 64px;
+    font-weight: 800;
+    color: #ffffff;
+    padding-bottom: 60px;
+    text-transform: uppercase;
+}
+
+.banner-btn {
+    padding: 15px 70px;
+    border: 3px solid #ffffff;
+    color: #ffffff;
+    font-weight: 800;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+.banner-btn:hover {
+    color: #ffffff;
+}
+
+
+/*header Css End*/
+
+
+/*web and brand Css start*/
+
+#web-brand-part {
+    margin-top: 100px;
+}
+
+.web-content .web-content-title {
+    font-family: 'Lato', sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+    padding-bottom: 37px;
+}
+
+.web-content .web-content-dev-design {
+    font-family: 'Lato', sans-serif;
+    font-size: 65px;
+    font-weight: 800;
+}
+
+.web-content>p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #666666;
+    padding: 0px 32px 0px 0px;
+}
+
+.web-content>.para2 {
+    padding-top: 20px;
+}
+
+.margin-bottm {
+    padding-bottom: 190px;
+}
+
+
+/*web and brand Css end*/
+
+
+/*features Css start*/
+
+#escape-features-part {
+    margin-top: 195px;
+}
+
+.features-item-one .deatures-icon {
+    border-radius: 50%;
+    background: #000000;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+}
+
+.features-content>h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.features-content>p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    padding: 0px 103px 0px 0px;
+    color: #666666;
+}
+
+.top-bottom-features {
+    margin: 57px 0px 57px 0px;
+}
+
+
+/*features Css end*/
+
+
+/*Testimonial Css start*/
+
+#testimonial-part {
+    margin-top: 150px;
+}
+
+.testimonial-part-top-content .testimonial-part-top-content-title {
+    font-family: 'Lato', sans-serif;
+    font-size: 65px;
+    font-weight: 300;
+}
+
+.testimonial-part-top-content .testimonial-part-top-content-title>span {
+    font-weight: 800;
+}
+
+.testimonial-part-top-content .testimonial-part-top-content-sub-title {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: #666666;
+}
+
+.people-pro-photo img {
+    border: 5px solid #4A413F;
+    border-radius: 50%;
+}
+
+.testimonial-inner-people-content .testimonial-inner-people-content-des {
+    font-family: 'Lato', sans-serif;
+    font-size: 23px;
+    color: #666666;
+}
+
+.people-deatils {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #7690c5;
+}
+
+.testimonial-inner-people-content {
+    margin: 60px 0px 0px 0px;
+    padding: 30px 0px 20px 93px;
+    border: 1px solid #e9e6e6;
+    width: 663px;
+}
+
+.testimonial-inner-people-content::before {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-right: 20px solid #f1efef;
+    border-bottom: 10px solid transparent;
+    left: -19px;
+    top: 45%;
+}
+
+.testimonial-inner-people-content-two {
+    margin: 60px 0px 0px 0px;
+    padding: 30px 0px 20px 93px;
+    border: 1px solid #e9e6e6;
+    width: 663px;
+}
+
+.testimonial-inner-people-content-two::after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 20px solid #f1efef;
+    border-bottom: 10px solid transparent;
+    right: 62px;
+    top: 45%;
+}
+
+.testimonial-inner-people-content-two .testimonial-inner-people-content-des {
+    font-family: 'Lato', sans-serif;
+    font-size: 23px;
+    color: #666666;
+}
+
+.people-deatils {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #7690c5;
+}
+
+
+/*Testimonial Css end*/
+
+
+/*brand Css start*/
+
+#brands-part {
+    margin-top: 130px;
+}
+
+
+/*brand Css end*/
+
+
+/*team Css end*/
+
+#team-part {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 100px;
+    background: #111111;
+    color: #ffffff;
+}
+
+.team-top-part-content .team-top-content-title {
+    font-family: 'Lato', sans-serif;
+    font-size: 65px;
+    font-weight: 300;
+}
+
+.team-top-part-content .team-top-content-title>span {
+    font-weight: 800;
+}
+
+.team-top-content-sub-title {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #777777;
+    letter-spacing: 1px;
+    line-height: 16px;
+}
+
+.team-member-photo>img {
+    border: 7px solid #ffffff;
+    border-radius: 50%;
+}
+
+.team-photo-top {
+    margin-top: 90px;
+}
+
+.team-name {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
+    line-height: 10px;
+}
+
+.team-rank {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+.social-media-icon>ul>li {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.social-media-icon>ul>li>a>i {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.team-last-part {
+    margin-top: 20px;
+    padding: 0px 125px;
+    padding-bottom: 100px;
+}
+
+.team-last-part>p {
+    font-family: 'Lato', sans-serif;
+    font-size: 23px;
+}
+
+
+/*team Css end*/
+
+
+/*contact-us-part Css end*/
+
+#contact-us-part {
+    padding-top: 100px;
+    background: #7690c5;
+    color: #ffffff;
+    padding-bottom: 90px;
+}
+
+.contact-us-content>h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 65px;
+    font-weight: 300;
+}
+
+.contact-us-content>h2>span {
+    font-weight: 800;
+}
+
+.contact-us-content>p {
+    font-family: 'Lato', sans-serif;
+    font-size: 19px;
+    padding-bottom: 30px;
+}
+
+.contact-us-social>li>span>i {
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+.contact-us-btn {
+    padding: 6px 25px;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    margin-top: 10px;
+}
+
+.contact-us-btn:hover {
+    color: #ffffff;
+}
+
+
+/*contact-us-part Css end*/
+
+#footer-part {
+    background: #7690c5;
+    padding-top: 20px;
+    border-top: 1px solid #e9e6e6;
+}
+
+.footer-credit {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+
+/*footer part end*/
+
+
+/*font-family: 'Lato', sans-serif;*/
